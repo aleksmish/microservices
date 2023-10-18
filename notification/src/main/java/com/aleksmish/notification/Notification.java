@@ -18,7 +18,6 @@ import java.time.LocalDateTime;
 @Setter
 @ToString
 public class Notification {
-
     @Id
     @SequenceGenerator(
             name = "notification_id_sequence",
